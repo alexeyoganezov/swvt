@@ -1,0 +1,95 @@
+.h1 {
+  font-weight: 700;
+  margin: 0 0 20px;
+  line-height: 1;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 2px 0;
+  font-size: 14px;
+  border: 1px solid #000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.input:focus, .select select:focus, input:focus {
+  outline: none;
+}
+
+.select {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  position: relative;
+  top: -1px;
+  overflow: hidden;
+}
+
+.select select {
+  /*opacity: 0;*/
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 14px;
+  width: 100%;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 14px;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  border: none;
+  transition: all .2s ease;
+}
+
+.button:hover, .button-secondary:hover {
+  opacity: .8;
+}
+
+.button-secondary {
+  display: inline-block;
+  padding: 9px 13px;
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  transition: all .2s ease;
+}
+
+.button[disabled="disabled"], .button[disabled=""],
+.button-secondary[disabled="disabled"], .button-secondary[disabled=""]{
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.form-control {
+  margin: 18px 0;
+}
+
+.link {
+  color: inherit;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.link-disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+.togglable {
+  display: none;
+}

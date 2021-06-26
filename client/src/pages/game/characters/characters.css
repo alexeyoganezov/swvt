@@ -1,0 +1,64 @@
+.list-actions {
+  margin-top: 10px;
+}
+
+.charsheet {
+  display: none;
+}
+
+.charsheet__fields {
+  font-size: 14px;
+}
+
+.charsheet__input {
+  display: inline-block;
+  text-align: center;
+}
+
+.attributes__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.attributes__label {
+  text-transform: uppercase;
+}
+
+.attributes__input {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #000;
+}
+
+.notes {
+  width: 100%;
+  min-height: 200px;
+}
+
+.various__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.various__label {
+  text-transform: uppercase;
+}
+
+.various__input {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #000;
+}
+
+.character__additional-field {
+  display: inline-block;
+  width: 223px;
+}

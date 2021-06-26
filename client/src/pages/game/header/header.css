@@ -1,0 +1,16 @@
+.header {
+  line-height: 24px;
+}
+
+.header__title {
+  font-weight: 700;
+}
+
+.header__player-select-container {
+  text-align: right;
+  line-height: 24px;
+}
+
+.header__player-select {
+  font-size: 12px;
+}

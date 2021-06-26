@@ -1,0 +1,10 @@
+.no-items-message {
+  font-size: 14px;
+  font-style: italic;
+  opacity: .6;
+}
+
+.redirect-message {
+  text-align: center;
+  width: 100%;
+}

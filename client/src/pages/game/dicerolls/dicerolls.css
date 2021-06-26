@@ -1,0 +1,34 @@
+.die {
+  font-size: 42px
+}
+
+.bucket .die {
+  cursor: pointer;
+}
+
+.hand-title {
+  margin: 6px 0px;
+  font-size: 14px;
+}
+
+.hand {
+  font-size: 42px;
+  height: 58px;
+}
+
+.selectDiceMessage {
+  font-size: 12px;
+  line-height: 58px;
+  margin: 0;
+  font-style: italic;
+  opacity: .6;
+}
+
+.dice-actions {
+  margin: 6px 0px 0;
+}
+
+.rolls {
+  height: 188px;
+  overflow-y: scroll;
+}
